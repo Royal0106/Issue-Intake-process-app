@@ -1,0 +1,195 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f6fa;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h1 { margin-bottom: 20px; color: #2f3640; }
+        h2 { margin-bottom: 15px; color: #40739e; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .issue-form {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        .issue-form label {
+            display: block;
+            margin: 10px 0 5px 0;
+            font-weight: 600;
+        }
+
+        .issue-form input[type="text"],
+        .issue-form textarea,
+        .issue-form select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #dcdde1;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .issue-form button {
+            background-color: #40739e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .issue-form button:hover {
+            background-color: #273c75;
+        }
+
+        .issues-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        .issues-table th,
+        .issues-table td {
+            padding: 12px 15px;
+            border: 1px solid #dcdde1;
+            text-align: left;
+        }
+
+        .issues-table th {
+            background-color: #40739e;
+            color: white;
+        }
+
+        .issues-table tr:nth-child(even) {
+            background-color: #f1f2f6;
+        }
+
+
+        .issues-table a:hover {
+            text-decoration: underline;
+        }
+
+        .error-messages {
+            background-color: #ffeded;
+            border: 1px solid #ff4d4d;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .error-messages ul {
+            list-style: disc inside;
+        }
+        /* table */
+        .issues-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .issues-table th, .issues-table td {
+            border: 1px solid #dcdde1;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .issues-table th {
+            background-color: #40739e;
+            color: white;
+        }
+
+        .issues-table tr:nth-child(even) {
+            background-color: #f1f2f6;
+        }
+
+        .action-btn {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+            margin-right: 5px;
+            font-size: 13px;
+        }
+
+        .view-btn { background-color: #44bd32; }
+        .view-btn:hover { background-color: #2f9e1c; }
+
+        .edit-btn { background-color: #487eb0; }
+        .edit-btn:hover { background-color: #2e5c85; }
+
+        /* filter style */
+        .filter-container {
+            background-color: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: left;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .filter-form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-end;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            font-weight: 600;
+        }
+
+        .filter-group label {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .filter-group select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            font-size: 14px;
+            min-width: 150px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .filter-group select:focus {
+            border-color: #40739e;
+            box-shadow: 0 0 5px rgba(64,115,158,0.3);
+            outline: none;
+        }
+
+        .filter-btn {
+            background-color: #40739e;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .filter-btn:hover {
+            background-color: #2f5d7a;
+        }
