@@ -30,10 +30,7 @@ Desktop.ini
 # Compiled files
 /public/build/
 /public/mix-manifest.json
-/public/css/
-/public/js/
-/public/vendor/
-/public/storage/
+
 
 # Laravel specific cache / logs
 /storage/framework/cache/data/*
